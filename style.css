@@ -1,17 +1,27 @@
 body{
   background-color: aquamarine;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
 }
 
 .box{
-  border: 1px black solid;
-  box-sizing: border-box;
   background-color: white;
   width: 30px;
   height: 30px;
-  
+}
+
+.hover{
+  background-color: black;
+  border: none;
+}
+
+#button-reset{
+  padding: 15px 20px;
+  margin: 30px;
 }
 
 #box-container{
